@@ -1,0 +1,29 @@
+{
+  "author": "xixu-me",
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.8.19",
+    "eslint": "^8.57.0",
+    "prettier": "^3.0.0",
+    "vitest": "~3.2.0",
+    "wrangler": "^4.28.1"
+  },
+  "main": "src/index.js",
+  "name": "chrome-web-store-mirror",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xixu-me/Chrome-Web-Store-Mirror.git"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "format": "prettier --write src/",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

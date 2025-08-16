@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "compatibility_date": "2025-08-14",
+  "main": "src/index.js",
+  "name": "chrome-web-store-mirror",
+  "observability": {
+    "enabled": true
+  },
+  "workers_dev": false
+}
